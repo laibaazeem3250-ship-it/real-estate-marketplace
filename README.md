@@ -90,12 +90,5 @@ Free option: create a free cluster at https://www.mongodb.com/cloud/atlas, get t
 | POST | /api/reviews | Yes | Create review |
 | DELETE | /api/reviews/:id | Yes (owner) | Delete review |
 
-## Suggested build order to hit a Saturday deadline
-1. Get the backend running locally + test all routes in Postman/Thunder Client
-2. Push MongoDB Atlas connection live, deploy backend to Render
-3. Run frontend locally against the deployed backend, fix any CORS/env issues
-4. Deploy frontend to Vercel
-5. Push final code to GitHub, submit the live URL + repo link
-
 ## Author 
  Laiba Azeem
